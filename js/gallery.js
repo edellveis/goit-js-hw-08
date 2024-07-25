@@ -90,8 +90,7 @@ const onImgModalclick = e => {
     const itemImgindexTarget = images[itemImgIndex];
     const modalWindowImage = basicLightbox.create(
         `<img
-      src="${itemImgindexTarget.original}"
-      alt="${itemImgindexTarget.description}"
+      src=${itemImgindexTarget.original}
     />`
     )
     modalWindowImage.show()
